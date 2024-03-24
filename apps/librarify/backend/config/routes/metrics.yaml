@@ -1,4 +1,0 @@
-metrics_get:
-  path: /metrics
-  controller: MyLibrary\Apps\Librarify\Backend\Controller\Metrics\MetricsController
-  methods:  [GET]
