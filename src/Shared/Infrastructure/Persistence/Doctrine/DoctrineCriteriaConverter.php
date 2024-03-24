@@ -2,12 +2,12 @@
 
 declare(strict_types=1);
 
-namespace CodelyTv\Shared\Infrastructure\Persistence\Doctrine;
+namespace MyLibrary\Shared\Infrastructure\Persistence\Doctrine;
 
-use CodelyTv\Shared\Domain\Criteria\Criteria;
-use CodelyTv\Shared\Domain\Criteria\Filter;
-use CodelyTv\Shared\Domain\Criteria\FilterField;
-use CodelyTv\Shared\Domain\Criteria\OrderBy;
+use MyLibrary\Shared\Domain\Criteria\Criteria;
+use MyLibrary\Shared\Domain\Criteria\Filter;
+use MyLibrary\Shared\Domain\Criteria\FilterField;
+use MyLibrary\Shared\Domain\Criteria\OrderBy;
 use Doctrine\Common\Collections\Criteria as DoctrineCriteria;
 use Doctrine\Common\Collections\Expr\Comparison;
 use Doctrine\Common\Collections\Expr\CompositeExpression;

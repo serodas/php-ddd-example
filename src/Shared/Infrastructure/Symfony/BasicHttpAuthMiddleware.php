@@ -2,12 +2,9 @@
 
 declare(strict_types=1);
 
-namespace CodelyTv\Shared\Infrastructure\Symfony;
+namespace MyLibrary\Shared\Infrastructure\Symfony;
 
-use CodelyTv\Backoffice\Auth\Application\Authenticate\AuthenticateUserCommand;
-use CodelyTv\Backoffice\Auth\Domain\InvalidAuthCredentials;
-use CodelyTv\Backoffice\Auth\Domain\InvalidAuthUsername;
-use CodelyTv\Shared\Domain\Bus\Command\CommandBus;
+use MyLibrary\Shared\Domain\Bus\Command\CommandBus;
 use Symfony\Component\HttpFoundation\JsonResponse;
 use Symfony\Component\HttpFoundation\Response;
 use Symfony\Component\HttpKernel\Event\RequestEvent;
@@ -56,7 +53,7 @@ final class BasicHttpAuthMiddleware
     private function askForCredentials(RequestEvent $event): void
     {
         $event->setResponse(
-            new Response('', Response::HTTP_UNAUTHORIZED, ['WWW-Authenticate' => 'Basic realm="CodelyTV"'])
+            new Response('', Response::HTTP_UNAUTHORIZED, ['WWW-Authenticate' => 'Basic realm="MyLibrary"'])
         );
     }
 }

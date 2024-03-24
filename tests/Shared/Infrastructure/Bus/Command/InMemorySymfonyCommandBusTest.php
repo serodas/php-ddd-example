@@ -2,12 +2,12 @@
 
 declare(strict_types=1);
 
-namespace CodelyTv\Tests\Shared\Infrastructure\Bus\Command;
+namespace MyLibrary\Tests\Shared\Infrastructure\Bus\Command;
 
-use CodelyTv\Shared\Domain\Bus\Command\Command;
-use CodelyTv\Shared\Infrastructure\Bus\Command\CommandNotRegisteredError;
-use CodelyTv\Shared\Infrastructure\Bus\Command\InMemorySymfonyCommandBus;
-use CodelyTv\Tests\Shared\Infrastructure\PhpUnit\UnitTestCase;
+use MyLibrary\Shared\Domain\Bus\Command\Command;
+use MyLibrary\Shared\Infrastructure\Bus\Command\CommandNotRegisteredError;
+use MyLibrary\Shared\Infrastructure\Bus\Command\InMemorySymfonyCommandBus;
+use MyLibrary\Tests\Shared\Infrastructure\PhpUnit\UnitTestCase;
 use Mockery\MockInterface;
 use RuntimeException;
 

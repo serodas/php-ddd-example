@@ -2,9 +2,9 @@
 
 declare(strict_types=1);
 
-namespace CodelyTv\Tests\Shared\Infrastructure\PhpUnit;
+namespace MyLibrary\Tests\Shared\Infrastructure\PhpUnit;
 
-use CodelyTv\Tests\Shared\Domain\TestUtils;
+use MyLibrary\Tests\Shared\Domain\TestUtils;
 use Doctrine\ORM\EntityManager;
 use Symfony\Bundle\FrameworkBundle\Test\KernelTestCase;
 use Throwable;

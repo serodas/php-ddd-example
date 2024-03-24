@@ -4,8 +4,8 @@ $finder = PhpCsFixer\Finder::create()->in(
     [
         __DIR__ . '/apps/backoffice/backend/src',
         __DIR__ . '/apps/backoffice/frontend/src',
-        __DIR__ . '/apps/mooc/backend/src',
-        __DIR__ . '/apps/mooc/frontend/src',
+        __DIR__ . '/apps/librarify/backend/src',
+        __DIR__ . '/apps/librarify/frontend/src',
         __DIR__ . '/src',
         __DIR__ . '/tests',
     ]

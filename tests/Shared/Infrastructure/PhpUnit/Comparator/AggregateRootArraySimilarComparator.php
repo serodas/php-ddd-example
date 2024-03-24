@@ -2,10 +2,10 @@
 
 declare(strict_types=1);
 
-namespace CodelyTv\Tests\Shared\Infrastructure\PhpUnit\Comparator;
+namespace MyLibrary\Tests\Shared\Infrastructure\PhpUnit\Comparator;
 
-use CodelyTv\Shared\Domain\Aggregate\AggregateRoot;
-use CodelyTv\Tests\Shared\Domain\TestUtils;
+use MyLibrary\Shared\Domain\Aggregate\AggregateRoot;
+use MyLibrary\Tests\Shared\Domain\TestUtils;
 use SebastianBergmann\Comparator\Comparator;
 use SebastianBergmann\Comparator\ComparisonFailure;
 use function Lambdish\Phunctional\all;

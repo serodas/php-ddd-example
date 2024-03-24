@@ -2,9 +2,9 @@
 
 declare(strict_types=1);
 
-namespace CodelyTv\Shared\Domain\Criteria;
+namespace MyLibrary\Shared\Domain\Criteria;
 
-use CodelyTv\Shared\Domain\ValueObject\StringValueObject;
+use MyLibrary\Shared\Domain\ValueObject\StringValueObject;
 
 final class FilterField extends StringValueObject
 {

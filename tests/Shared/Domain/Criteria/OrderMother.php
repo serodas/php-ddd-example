@@ -2,11 +2,11 @@
 
 declare(strict_types=1);
 
-namespace CodelyTv\Tests\Shared\Domain\Criteria;
+namespace MyLibrary\Tests\Shared\Domain\Criteria;
 
-use CodelyTv\Shared\Domain\Criteria\Order;
-use CodelyTv\Shared\Domain\Criteria\OrderBy;
-use CodelyTv\Shared\Domain\Criteria\OrderType;
+use MyLibrary\Shared\Domain\Criteria\Order;
+use MyLibrary\Shared\Domain\Criteria\OrderBy;
+use MyLibrary\Shared\Domain\Criteria\OrderType;
 
 final class OrderMother
 {

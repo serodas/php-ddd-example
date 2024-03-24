@@ -2,12 +2,12 @@
 
 declare(strict_types=1);
 
-namespace CodelyTv\Shared\Infrastructure\Bus\Event\RabbitMq;
+namespace MyLibrary\Shared\Infrastructure\Bus\Event\RabbitMq;
 
 use AMQPEnvelope;
 use AMQPQueue;
 use AMQPQueueException;
-use CodelyTv\Shared\Infrastructure\Bus\Event\DomainEventJsonDeserializer;
+use MyLibrary\Shared\Infrastructure\Bus\Event\DomainEventJsonDeserializer;
 use Throwable;
 use function Lambdish\Phunctional\assoc;
 use function Lambdish\Phunctional\get;

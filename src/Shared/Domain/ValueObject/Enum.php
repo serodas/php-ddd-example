@@ -2,9 +2,9 @@
 
 declare(strict_types=1);
 
-namespace CodelyTv\Shared\Domain\ValueObject;
+namespace MyLibrary\Shared\Domain\ValueObject;
 
-use CodelyTv\Shared\Domain\Utils;
+use MyLibrary\Shared\Domain\Utils;
 use ReflectionClass;
 use Stringable;
 use function in_array;

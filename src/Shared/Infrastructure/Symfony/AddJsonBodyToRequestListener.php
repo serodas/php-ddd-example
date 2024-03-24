@@ -2,7 +2,7 @@
 
 declare(strict_types=1);
 
-namespace CodelyTv\Shared\Infrastructure\Symfony;
+namespace MyLibrary\Shared\Infrastructure\Symfony;
 
 use Symfony\Component\HttpFoundation\Request;
 use Symfony\Component\HttpFoundation\Response;

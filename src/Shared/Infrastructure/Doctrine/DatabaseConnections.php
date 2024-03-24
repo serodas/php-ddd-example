@@ -2,10 +2,10 @@
 
 declare(strict_types=1);
 
-namespace CodelyTv\Shared\Infrastructure\Doctrine;
+namespace MyLibrary\Shared\Infrastructure\Doctrine;
 
-use CodelyTv\Shared\Domain\Utils;
-use CodelyTv\Tests\Shared\Infrastructure\Doctrine\MySqlDatabaseCleaner;
+use MyLibrary\Shared\Domain\Utils;
+use MyLibrary\Tests\Shared\Infrastructure\Doctrine\MySqlDatabaseCleaner;
 use Doctrine\ORM\EntityManager;
 use function Lambdish\Phunctional\apply;
 use function Lambdish\Phunctional\each;

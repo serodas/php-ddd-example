@@ -2,9 +2,9 @@
 
 declare(strict_types=1);
 
-namespace CodelyTv\Shared\Infrastructure\Elasticsearch;
+namespace MyLibrary\Shared\Infrastructure\Elasticsearch;
 
-use CodelyTv\Shared\Domain\Utils;
+use MyLibrary\Shared\Domain\Utils;
 use Elasticsearch\Client;
 use Elasticsearch\ClientBuilder;
 use Elasticsearch\Common\Exceptions\Missing404Exception;

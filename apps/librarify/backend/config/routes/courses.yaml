@@ -1,0 +1,4 @@
+courses_put:
+  path: /courses/{id}
+  controller: MyLibrary\Apps\Librarify\Backend\Controller\Courses\CoursesPutController
+  methods:  [PUT]

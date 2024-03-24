@@ -2,10 +2,10 @@
 
 declare(strict_types=1);
 
-namespace CodelyTv\Shared\Infrastructure\Bus\Event\MySql;
+namespace MyLibrary\Shared\Infrastructure\Bus\Event\MySql;
 
-use CodelyTv\Shared\Domain\Utils;
-use CodelyTv\Shared\Infrastructure\Bus\Event\DomainEventMapping;
+use MyLibrary\Shared\Domain\Utils;
+use MyLibrary\Shared\Infrastructure\Bus\Event\DomainEventMapping;
 use DateTimeImmutable;
 use Doctrine\DBAL\Connection;
 use Doctrine\DBAL\FetchMode;

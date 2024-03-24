@@ -2,13 +2,13 @@
 
 declare(strict_types=1);
 
-namespace CodelyTv\Tests\Shared\Infrastructure\Behat;
+namespace MyLibrary\Tests\Shared\Infrastructure\Behat;
 
 use Behat\Gherkin\Node\PyStringNode;
 use Behat\Mink\Session;
 use Behat\MinkExtension\Context\RawMinkContext;
-use CodelyTv\Tests\Shared\Infrastructure\Mink\MinkHelper;
-use CodelyTv\Tests\Shared\Infrastructure\Mink\MinkSessionRequestHelper;
+use MyLibrary\Tests\Shared\Infrastructure\Mink\MinkHelper;
+use MyLibrary\Tests\Shared\Infrastructure\Mink\MinkSessionRequestHelper;
 use RuntimeException;
 
 final class ApiContext extends RawMinkContext

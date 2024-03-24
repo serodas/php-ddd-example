@@ -2,12 +2,12 @@
 
 declare(strict_types=1);
 
-namespace CodelyTv\Tests\Shared\Domain\Criteria;
+namespace MyLibrary\Tests\Shared\Domain\Criteria;
 
-use CodelyTv\Shared\Domain\Criteria\Filter;
-use CodelyTv\Shared\Domain\Criteria\FilterField;
-use CodelyTv\Shared\Domain\Criteria\FilterOperator;
-use CodelyTv\Shared\Domain\Criteria\FilterValue;
+use MyLibrary\Shared\Domain\Criteria\Filter;
+use MyLibrary\Shared\Domain\Criteria\FilterField;
+use MyLibrary\Shared\Domain\Criteria\FilterOperator;
+use MyLibrary\Shared\Domain\Criteria\FilterValue;
 
 final class FilterMother
 {

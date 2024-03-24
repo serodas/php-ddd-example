@@ -2,10 +2,10 @@
 
 declare(strict_types=1);
 
-namespace CodelyTv\Shared\Infrastructure\Symfony;
+namespace MyLibrary\Shared\Infrastructure\Symfony;
 
-use CodelyTv\Shared\Domain\Bus\Command\CommandBus;
-use CodelyTv\Shared\Domain\Bus\Query\QueryBus;
+use MyLibrary\Shared\Domain\Bus\Command\CommandBus;
+use MyLibrary\Shared\Domain\Bus\Query\QueryBus;
 use Symfony\Component\HttpFoundation\RedirectResponse;
 use Symfony\Component\HttpFoundation\Request;
 use Symfony\Component\HttpFoundation\RequestStack;

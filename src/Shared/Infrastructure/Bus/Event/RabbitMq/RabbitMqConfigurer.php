@@ -2,10 +2,10 @@
 
 declare(strict_types=1);
 
-namespace CodelyTv\Shared\Infrastructure\Bus\Event\RabbitMq;
+namespace MyLibrary\Shared\Infrastructure\Bus\Event\RabbitMq;
 
 use AMQPQueue;
-use CodelyTv\Shared\Domain\Bus\Event\DomainEventSubscriber;
+use MyLibrary\Shared\Domain\Bus\Event\DomainEventSubscriber;
 use function Lambdish\Phunctional\each;
 
 final class RabbitMqConfigurer

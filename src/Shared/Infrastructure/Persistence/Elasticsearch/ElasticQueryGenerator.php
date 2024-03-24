@@ -2,10 +2,10 @@
 
 declare(strict_types=1);
 
-namespace CodelyTv\Shared\Infrastructure\Persistence\Elasticsearch;
+namespace MyLibrary\Shared\Infrastructure\Persistence\Elasticsearch;
 
-use CodelyTv\Shared\Domain\Criteria\Filter;
-use CodelyTv\Shared\Domain\Criteria\FilterOperator;
+use MyLibrary\Shared\Domain\Criteria\Filter;
+use MyLibrary\Shared\Domain\Criteria\FilterOperator;
 use Exception;
 
 final class ElasticQueryGenerator

@@ -2,7 +2,7 @@
 
 declare(strict_types=1);
 
-namespace CodelyTv\Shared\Infrastructure\Elasticsearch;
+namespace MyLibrary\Shared\Infrastructure\Elasticsearch;
 
 use Elasticsearch\Client;
 

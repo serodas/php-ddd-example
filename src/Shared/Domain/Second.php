@@ -2,9 +2,9 @@
 
 declare(strict_types=1);
 
-namespace CodelyTv\Shared\Domain;
+namespace MyLibrary\Shared\Domain;
 
-use CodelyTv\Shared\Domain\ValueObject\IntValueObject;
+use MyLibrary\Shared\Domain\ValueObject\IntValueObject;
 
 final class Second extends IntValueObject
 {

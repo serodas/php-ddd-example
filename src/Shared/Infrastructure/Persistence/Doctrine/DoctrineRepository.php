@@ -2,9 +2,9 @@
 
 declare(strict_types=1);
 
-namespace CodelyTv\Shared\Infrastructure\Persistence\Doctrine;
+namespace MyLibrary\Shared\Infrastructure\Persistence\Doctrine;
 
-use CodelyTv\Shared\Domain\Aggregate\AggregateRoot;
+use MyLibrary\Shared\Domain\Aggregate\AggregateRoot;
 use Doctrine\ORM\EntityManager;
 use Doctrine\ORM\EntityRepository;
 

@@ -2,11 +2,11 @@
 
 declare(strict_types=1);
 
-namespace CodelyTv\Shared\Infrastructure\Persistence\Doctrine;
+namespace MyLibrary\Shared\Infrastructure\Persistence\Doctrine;
 
-use CodelyTv\Shared\Domain\Utils;
-use CodelyTv\Shared\Domain\ValueObject\Uuid;
-use CodelyTv\Shared\Infrastructure\Doctrine\Dbal\DoctrineCustomType;
+use MyLibrary\Shared\Domain\Utils;
+use MyLibrary\Shared\Domain\ValueObject\Uuid;
+use MyLibrary\Shared\Infrastructure\Doctrine\Dbal\DoctrineCustomType;
 use Doctrine\DBAL\Platforms\AbstractPlatform;
 use Doctrine\DBAL\Types\StringType;
 use function Lambdish\Phunctional\last;

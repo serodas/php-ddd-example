@@ -2,7 +2,7 @@
 
 declare(strict_types=1);
 
-namespace CodelyTv\Tests\Shared\Domain;
+namespace MyLibrary\Tests\Shared\Domain;
 
 use ReflectionObject;
 use ReflectionProperty;

@@ -2,9 +2,9 @@
 
 declare(strict_types=1);
 
-namespace CodelyTv\Tests\Shared\Infrastructure\Elastic;
+namespace MyLibrary\Tests\Shared\Infrastructure\Elastic;
 
-use CodelyTv\Shared\Infrastructure\Elasticsearch\ElasticsearchClient;
+use MyLibrary\Shared\Infrastructure\Elasticsearch\ElasticsearchClient;
 use function Lambdish\Phunctional\each;
 
 final class ElasticDatabaseCleaner

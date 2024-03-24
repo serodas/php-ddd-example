@@ -2,11 +2,11 @@
 
 declare(strict_types=1);
 
-namespace CodelyTv\Shared\Infrastructure\Bus\Event\WithMonitoring;
+namespace MyLibrary\Shared\Infrastructure\Bus\Event\WithMonitoring;
 
-use CodelyTv\Shared\Domain\Bus\Event\DomainEvent;
-use CodelyTv\Shared\Domain\Bus\Event\EventBus;
-use CodelyTv\Shared\Infrastructure\Monitoring\PrometheusMonitor;
+use MyLibrary\Shared\Domain\Bus\Event\DomainEvent;
+use MyLibrary\Shared\Domain\Bus\Event\EventBus;
+use MyLibrary\Shared\Infrastructure\Monitoring\PrometheusMonitor;
 use function Lambdish\Phunctional\each;
 
 final class WithPrometheusMonitoringEventBus implements EventBus

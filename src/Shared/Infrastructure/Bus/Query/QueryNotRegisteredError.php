@@ -2,9 +2,9 @@
 
 declare(strict_types=1);
 
-namespace CodelyTv\Shared\Infrastructure\Bus\Query;
+namespace MyLibrary\Shared\Infrastructure\Bus\Query;
 
-use CodelyTv\Shared\Domain\Bus\Query\Query;
+use MyLibrary\Shared\Domain\Bus\Query\Query;
 use RuntimeException;
 
 final class QueryNotRegisteredError extends RuntimeException

@@ -2,15 +2,15 @@
 
 declare(strict_types=1);
 
-namespace CodelyTv\Tests\Shared\Infrastructure\PhpUnit;
+namespace MyLibrary\Tests\Shared\Infrastructure\PhpUnit;
 
-use CodelyTv\Shared\Domain\Bus\Command\Command;
-use CodelyTv\Shared\Domain\Bus\Event\DomainEvent;
-use CodelyTv\Shared\Domain\Bus\Event\EventBus;
-use CodelyTv\Shared\Domain\Bus\Query\Query;
-use CodelyTv\Shared\Domain\Bus\Query\Response;
-use CodelyTv\Shared\Domain\UuidGenerator;
-use CodelyTv\Tests\Shared\Domain\TestUtils;
+use MyLibrary\Shared\Domain\Bus\Command\Command;
+use MyLibrary\Shared\Domain\Bus\Event\DomainEvent;
+use MyLibrary\Shared\Domain\Bus\Event\EventBus;
+use MyLibrary\Shared\Domain\Bus\Query\Query;
+use MyLibrary\Shared\Domain\Bus\Query\Response;
+use MyLibrary\Shared\Domain\UuidGenerator;
+use MyLibrary\Tests\Shared\Domain\TestUtils;
 use Mockery;
 use Mockery\Adapter\Phpunit\MockeryTestCase;
 use Mockery\Matcher\MatcherAbstract;

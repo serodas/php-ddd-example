@@ -2,9 +2,9 @@
 
 declare(strict_types=1);
 
-namespace CodelyTv\Shared\Infrastructure\Symfony;
+namespace MyLibrary\Shared\Infrastructure\Symfony;
 
-use CodelyTv\Shared\Domain\Utils;
+use MyLibrary\Shared\Domain\Utils;
 use Symfony\Component\HttpFoundation\RequestStack;
 
 final class FlashSession

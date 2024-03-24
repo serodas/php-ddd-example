@@ -2,9 +2,9 @@
 
 declare(strict_types=1);
 
-namespace CodelyTv\Shared\Infrastructure\Logger;
+namespace MyLibrary\Shared\Infrastructure\Logger;
 
-use CodelyTv\Shared\Domain\Logger;
+use MyLibrary\Shared\Domain\Logger;
 
 final class MonologLogger implements Logger
 {

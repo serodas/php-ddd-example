@@ -2,10 +2,10 @@
 
 declare(strict_types=1);
 
-namespace CodelyTv\Shared\Infrastructure\Bus\Event\RabbitMq;
+namespace MyLibrary\Shared\Infrastructure\Bus\Event\RabbitMq;
 
-use CodelyTv\Shared\Domain\Bus\Event\DomainEventSubscriber;
-use CodelyTv\Shared\Domain\Utils;
+use MyLibrary\Shared\Domain\Bus\Event\DomainEventSubscriber;
+use MyLibrary\Shared\Domain\Utils;
 use function Lambdish\Phunctional\last;
 use function Lambdish\Phunctional\map;
 
@@ -13,7 +13,7 @@ final class RabbitMqQueueNameFormatter
 {
     public static function format(DomainEventSubscriber $subscriber): string
     {
-        $subscriberClassPaths = explode('\\', str_replace('CodelyTv', 'codelytv', $subscriber::class));
+        $subscriberClassPaths = explode('\\', str_replace('MyLibrary', 'mylibrary', $subscriber::class));
 
         $queueNameParts = [
             $subscriberClassPaths[0],

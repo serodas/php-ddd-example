@@ -2,10 +2,10 @@
 
 declare(strict_types=1);
 
-namespace CodelyTv\Shared\Infrastructure\Bus\Event;
+namespace MyLibrary\Shared\Infrastructure\Bus\Event;
 
-use CodelyTv\Shared\Domain\Bus\Event\DomainEvent;
-use CodelyTv\Shared\Domain\Utils;
+use MyLibrary\Shared\Domain\Bus\Event\DomainEvent;
+use MyLibrary\Shared\Domain\Utils;
 use RuntimeException;
 
 final class DomainEventJsonDeserializer

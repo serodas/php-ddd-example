@@ -2,13 +2,13 @@
 
 declare(strict_types=1);
 
-namespace CodelyTv\Shared\Infrastructure\Bus\Event\RabbitMq;
+namespace MyLibrary\Shared\Infrastructure\Bus\Event\RabbitMq;
 
 use AMQPException;
-use CodelyTv\Shared\Domain\Bus\Event\DomainEvent;
-use CodelyTv\Shared\Domain\Bus\Event\EventBus;
-use CodelyTv\Shared\Infrastructure\Bus\Event\DomainEventJsonSerializer;
-use CodelyTv\Shared\Infrastructure\Bus\Event\MySql\MySqlDoctrineEventBus;
+use MyLibrary\Shared\Domain\Bus\Event\DomainEvent;
+use MyLibrary\Shared\Domain\Bus\Event\EventBus;
+use MyLibrary\Shared\Infrastructure\Bus\Event\DomainEventJsonSerializer;
+use MyLibrary\Shared\Infrastructure\Bus\Event\MySql\MySqlDoctrineEventBus;
 use function Lambdish\Phunctional\each;
 
 final class RabbitMqEventBus implements EventBus

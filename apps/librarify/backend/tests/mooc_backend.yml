@@ -1,0 +1,29 @@
+librarify_backend:
+  extensions:
+    FriendsOfBehat\SymfonyExtension:
+      kernel:
+        class: MyLibrary\Apps\Librarify\Backend\LibrarifyBackendKernel
+      bootstrap: apps/bootstrap.php
+    Behat\MinkExtension:
+      sessions:
+        symfony:
+          symfony: ~
+      base_url: ''
+
+  suites:
+    health_check:
+      paths: [ apps/librarify/backend/tests/features/health_check ]
+      contexts:
+        - MyLibrary\Tests\Shared\Infrastructure\Behat\ApiContext
+
+    courses:
+      paths: [ apps/librarify/backend/tests/features/courses ]
+      contexts:
+        - MyLibrary\Tests\Shared\Infrastructure\Behat\ApplicationFeatureContext
+        - MyLibrary\Tests\Shared\Infrastructure\Behat\ApiContext
+
+    courses_counter:
+      paths: [ apps/librarify/backend/tests/features/courses_counter ]
+      contexts:
+        - MyLibrary\Tests\Shared\Infrastructure\Behat\ApplicationFeatureContext
+        - MyLibrary\Tests\Shared\Infrastructure\Behat\ApiContext

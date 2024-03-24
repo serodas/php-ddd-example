@@ -2,11 +2,11 @@
 
 declare(strict_types=1);
 
-namespace CodelyTv\Tests\Shared\Infrastructure\Bus\Event\RabbitMq;
+namespace MyLibrary\Tests\Shared\Infrastructure\Bus\Event\RabbitMq;
 
-use CodelyTv\Mooc\Courses\Domain\CourseCreatedDomainEvent;
-use CodelyTv\Mooc\CoursesCounter\Domain\CoursesCounterIncrementedDomainEvent;
-use CodelyTv\Shared\Domain\Bus\Event\DomainEventSubscriber;
+use MyLibrary\Librarify\Courses\Domain\CourseCreatedDomainEvent;
+use MyLibrary\Librarify\CoursesCounter\Domain\CoursesCounterIncrementedDomainEvent;
+use MyLibrary\Shared\Domain\Bus\Event\DomainEventSubscriber;
 
 final class TestAllWorksOnRabbitMqEventsPublished implements DomainEventSubscriber
 {

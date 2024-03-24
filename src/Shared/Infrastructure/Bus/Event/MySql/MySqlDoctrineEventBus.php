@@ -2,11 +2,11 @@
 
 declare(strict_types=1);
 
-namespace CodelyTv\Shared\Infrastructure\Bus\Event\MySql;
+namespace MyLibrary\Shared\Infrastructure\Bus\Event\MySql;
 
-use CodelyTv\Shared\Domain\Bus\Event\DomainEvent;
-use CodelyTv\Shared\Domain\Bus\Event\EventBus;
-use CodelyTv\Shared\Domain\Utils;
+use MyLibrary\Shared\Domain\Bus\Event\DomainEvent;
+use MyLibrary\Shared\Domain\Bus\Event\EventBus;
+use MyLibrary\Shared\Domain\Utils;
 use Doctrine\DBAL\Connection;
 use Doctrine\ORM\EntityManager;
 use function Lambdish\Phunctional\each;

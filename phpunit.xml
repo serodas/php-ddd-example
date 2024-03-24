@@ -29,11 +29,8 @@
     </php>
 
     <testsuites>
-        <testsuite name="backoffice">
-            <directory>./tests/Backoffice</directory>
-        </testsuite>
-        <testsuite name="mooc">
-            <directory>./tests/Mooc</directory>
+        <testsuite name="librarify">
+            <directory>./tests/Librarify</directory>
         </testsuite>
         <testsuite name="shared">
             <directory>./tests/Shared</directory>

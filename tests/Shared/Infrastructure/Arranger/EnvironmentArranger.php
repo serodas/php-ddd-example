@@ -2,7 +2,7 @@
 
 declare(strict_types=1);
 
-namespace CodelyTv\Tests\Shared\Infrastructure\Arranger;
+namespace MyLibrary\Tests\Shared\Infrastructure\Arranger;
 
 interface EnvironmentArranger
 {

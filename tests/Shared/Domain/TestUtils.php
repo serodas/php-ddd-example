@@ -2,29 +2,29 @@
 
 declare(strict_types=1);
 
-namespace CodelyTv\Tests\Shared\Domain;
+namespace MyLibrary\Tests\Shared\Domain;
 
-use CodelyTv\Tests\Shared\Infrastructure\Mockery\CodelyTvMatcherIsSimilar;
-use CodelyTv\Tests\Shared\Infrastructure\PhpUnit\Constraint\CodelyTvConstraintIsSimilar;
+use MyLibrary\Tests\Shared\Infrastructure\Mockery\MyLibraryMatcherIsSimilar;
+use MyLibrary\Tests\Shared\Infrastructure\PhpUnit\Constraint\MyLibraryConstraintIsSimilar;
 
 final class TestUtils
 {
     public static function isSimilar($expected, $actual): bool
     {
-        $constraint = new CodelyTvConstraintIsSimilar($expected);
+        $constraint = new MyLibraryConstraintIsSimilar($expected);
 
         return $constraint->evaluate($actual, '', true);
     }
 
     public static function assertSimilar($expected, $actual): void
     {
-        $constraint = new CodelyTvConstraintIsSimilar($expected);
+        $constraint = new MyLibraryConstraintIsSimilar($expected);
 
         $constraint->evaluate($actual);
     }
 
-    public static function similarTo($value, $delta = 0.0): CodelyTvMatcherIsSimilar
+    public static function similarTo($value, $delta = 0.0): MyLibraryMatcherIsSimilar
     {
-        return new CodelyTvMatcherIsSimilar($value, $delta);
+        return new MyLibraryMatcherIsSimilar($value, $delta);
     }
 }

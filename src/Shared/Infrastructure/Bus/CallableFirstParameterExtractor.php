@@ -2,9 +2,9 @@
 
 declare(strict_types=1);
 
-namespace CodelyTv\Shared\Infrastructure\Bus;
+namespace MyLibrary\Shared\Infrastructure\Bus;
 
-use CodelyTv\Shared\Domain\Bus\Event\DomainEventSubscriber;
+use MyLibrary\Shared\Domain\Bus\Event\DomainEventSubscriber;
 use LogicException;
 use ReflectionClass;
 use ReflectionMethod;

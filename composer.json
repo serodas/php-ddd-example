@@ -1,5 +1,5 @@
 {
-  "name": "codelytv/php-ddd-example",
+  "name": "mylibrary/php-ddd-example",
   "license": "MIT",
   "type": "project",
   "description": "An example project applying Domain-Driven Design, Hexagonal Architecture and CQRS in a Monorepository",
@@ -56,18 +56,15 @@
   },
   "autoload": {
     "psr-4": {
-      "CodelyTv\\Apps\\Mooc\\Backend\\": "apps/mooc/backend/src",
-      "CodelyTv\\Apps\\Mooc\\Frontend\\": "apps/mooc/frontend/src",
+      "MyLibrary\\Apps\\Librarify\\Backend\\": "apps/librarify/backend/src",
+      "MyLibrary\\Apps\\Librarify\\Frontend\\": "apps/librarify/frontend/src",
 
-      "CodelyTv\\Apps\\Backoffice\\Backend\\": "apps/backoffice/backend/src",
-      "CodelyTv\\Apps\\Backoffice\\Frontend\\": "apps/backoffice/frontend/src",
-
-      "CodelyTv\\": ["src"]
+      "MyLibrary\\": ["src"]
     }
   },
   "autoload-dev": {
     "psr-4": {
-      "CodelyTv\\Tests\\": ["tests"]
+      "MyLibrary\\Tests\\": ["tests"]
     }
   },
   "minimum-stability": "RC",

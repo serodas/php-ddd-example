@@ -2,11 +2,11 @@
 
 declare(strict_types=1);
 
-namespace CodelyTv\Tests\Shared\Domain\Criteria;
+namespace MyLibrary\Tests\Shared\Domain\Criteria;
 
-use CodelyTv\Shared\Domain\Criteria\Criteria;
-use CodelyTv\Shared\Domain\Criteria\Filters;
-use CodelyTv\Shared\Domain\Criteria\Order;
+use MyLibrary\Shared\Domain\Criteria\Criteria;
+use MyLibrary\Shared\Domain\Criteria\Filters;
+use MyLibrary\Shared\Domain\Criteria\Order;
 
 final class CriteriaMother
 {

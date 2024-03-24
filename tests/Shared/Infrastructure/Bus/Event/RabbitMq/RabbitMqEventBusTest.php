@@ -2,20 +2,20 @@
 
 declare(strict_types=1);
 
-namespace CodelyTv\Tests\Shared\Infrastructure\Bus\Event\RabbitMq;
+namespace MyLibrary\Tests\Shared\Infrastructure\Bus\Event\RabbitMq;
 
-use CodelyTv\Apps\Mooc\Backend\MoocBackendKernel;
-use CodelyTv\Shared\Domain\Bus\Event\DomainEvent;
-use CodelyTv\Shared\Infrastructure\Bus\Event\DomainEventJsonDeserializer;
-use CodelyTv\Shared\Infrastructure\Bus\Event\MySql\MySqlDoctrineEventBus;
-use CodelyTv\Shared\Infrastructure\Bus\Event\RabbitMq\RabbitMqConfigurer;
-use CodelyTv\Shared\Infrastructure\Bus\Event\RabbitMq\RabbitMqConnection;
-use CodelyTv\Shared\Infrastructure\Bus\Event\RabbitMq\RabbitMqDomainEventsConsumer;
-use CodelyTv\Shared\Infrastructure\Bus\Event\RabbitMq\RabbitMqEventBus;
-use CodelyTv\Shared\Infrastructure\Bus\Event\RabbitMq\RabbitMqQueueNameFormatter;
-use CodelyTv\Tests\Mooc\Courses\Domain\CourseCreatedDomainEventMother;
-use CodelyTv\Tests\Mooc\CoursesCounter\Domain\CoursesCounterIncrementedDomainEventMother;
-use CodelyTv\Tests\Shared\Infrastructure\PhpUnit\InfrastructureTestCase;
+use MyLibrary\Apps\Librarify\Backend\LibrarifyBackendKernel;
+use MyLibrary\Shared\Domain\Bus\Event\DomainEvent;
+use MyLibrary\Shared\Infrastructure\Bus\Event\DomainEventJsonDeserializer;
+use MyLibrary\Shared\Infrastructure\Bus\Event\MySql\MySqlDoctrineEventBus;
+use MyLibrary\Shared\Infrastructure\Bus\Event\RabbitMq\RabbitMqConfigurer;
+use MyLibrary\Shared\Infrastructure\Bus\Event\RabbitMq\RabbitMqConnection;
+use MyLibrary\Shared\Infrastructure\Bus\Event\RabbitMq\RabbitMqDomainEventsConsumer;
+use MyLibrary\Shared\Infrastructure\Bus\Event\RabbitMq\RabbitMqEventBus;
+use MyLibrary\Shared\Infrastructure\Bus\Event\RabbitMq\RabbitMqQueueNameFormatter;
+use MyLibrary\Tests\Librarify\Courses\Domain\CourseCreatedDomainEventMother;
+use MyLibrary\Tests\Librarify\CoursesCounter\Domain\CoursesCounterIncrementedDomainEventMother;
+use MyLibrary\Tests\Shared\Infrastructure\PhpUnit\InfrastructureTestCase;
 use RuntimeException;
 use Throwable;
 
@@ -131,7 +131,7 @@ final class RabbitMqEventBusTest extends InfrastructureTestCase
 
     protected function kernelClass(): string
     {
-        return MoocBackendKernel::class;
+        return LibrarifyBackendKernel::class;
     }
 
     private function assertConsumer(DomainEvent ...$expectedDomainEvents): callable

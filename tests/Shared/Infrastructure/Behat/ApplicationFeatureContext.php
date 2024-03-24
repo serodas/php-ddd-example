@@ -2,13 +2,13 @@
 
 declare(strict_types=1);
 
-namespace CodelyTv\Tests\Shared\Infrastructure\Behat;
+namespace MyLibrary\Tests\Shared\Infrastructure\Behat;
 
 use Behat\Behat\Context\Context;
 use Behat\Gherkin\Node\PyStringNode;
-use CodelyTv\Shared\Infrastructure\Bus\Event\DomainEventJsonDeserializer;
-use CodelyTv\Shared\Infrastructure\Bus\Event\InMemory\InMemorySymfonyEventBus;
-use CodelyTv\Shared\Infrastructure\Doctrine\DatabaseConnections;
+use MyLibrary\Shared\Infrastructure\Bus\Event\DomainEventJsonDeserializer;
+use MyLibrary\Shared\Infrastructure\Bus\Event\InMemory\InMemorySymfonyEventBus;
+use MyLibrary\Shared\Infrastructure\Doctrine\DatabaseConnections;
 
 final class ApplicationFeatureContext implements Context
 {

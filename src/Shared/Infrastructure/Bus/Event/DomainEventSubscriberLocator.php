@@ -2,11 +2,11 @@
 
 declare(strict_types=1);
 
-namespace CodelyTv\Shared\Infrastructure\Bus\Event;
+namespace MyLibrary\Shared\Infrastructure\Bus\Event;
 
-use CodelyTv\Shared\Domain\Bus\Event\DomainEventSubscriber;
-use CodelyTv\Shared\Infrastructure\Bus\CallableFirstParameterExtractor;
-use CodelyTv\Shared\Infrastructure\Bus\Event\RabbitMq\RabbitMqQueueNameFormatter;
+use MyLibrary\Shared\Domain\Bus\Event\DomainEventSubscriber;
+use MyLibrary\Shared\Infrastructure\Bus\CallableFirstParameterExtractor;
+use MyLibrary\Shared\Infrastructure\Bus\Event\RabbitMq\RabbitMqQueueNameFormatter;
 use RuntimeException;
 use Traversable;
 use function Lambdish\Phunctional\search;

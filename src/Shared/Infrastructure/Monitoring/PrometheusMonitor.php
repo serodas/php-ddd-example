@@ -2,7 +2,7 @@
 
 declare(strict_types=1);
 
-namespace CodelyTv\Shared\Infrastructure\Monitoring;
+namespace MyLibrary\Shared\Infrastructure\Monitoring;
 
 use Prometheus\CollectorRegistry;
 use Prometheus\Storage\APC;

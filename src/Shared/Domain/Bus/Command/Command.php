@@ -2,7 +2,7 @@
 
 declare(strict_types=1);
 
-namespace CodelyTv\Shared\Domain\Bus\Command;
+namespace MyLibrary\Shared\Domain\Bus\Command;
 
 interface Command
 {
